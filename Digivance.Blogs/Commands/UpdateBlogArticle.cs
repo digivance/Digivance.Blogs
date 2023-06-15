@@ -17,7 +17,9 @@ namespace Digivance.Blogs.Commands
         /// <inheritdoc />
         public string Content { get; set; }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Unique id of the blog user is updating
+        /// </summary>
         public string Id { get; set; }
 
         /// <inheritdoc />
