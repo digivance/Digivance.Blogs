@@ -20,7 +20,7 @@ namespace Digivance.Blogs.Commands
         /// <summary>
         /// Unique id of the blog user is updating
         /// </summary>
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         /// <inheritdoc />
         public string? SubTitle { get; set; }
